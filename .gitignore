@@ -1,0 +1,4 @@
+myRef.txt
+backend/node_modules/*
+OpenWeather_API_key.png
+backend/.env
