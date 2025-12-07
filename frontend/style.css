@@ -1,0 +1,89 @@
+/* Styling body, containers & input*/
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.wrapper {
+    background: #ffffffb8;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 350px;
+    text-align: center;
+}
+
+.wrapper h2, .wrapper p {
+  transition: color 0.3s ease;
+}
+
+input {
+    width: 80%;
+    padding-top: 20px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+button {
+    margin-top: 10px;
+    padding: 11px 16px;
+    border: none;
+    background: #16385b;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.weather-card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.weather-card img {
+    width: 100px;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    transition: background 0.5s ease-in-out;
+}
+
+/* Styling features for different temperature scales*/
+body.hot {
+    background: linear-gradient(to bottom, #ff4e50, #f9d423);
+    color: #e36319;
+}
+
+body.pleasant {
+    background: linear-gradient(to bottom, #45a506, #6dd5ed);
+    color: #048e57;
+}
+
+body.cold {
+    background: linear-gradient(to bottom, #004e92, #000428);
+    color: #0965b1;
+}
+
+body.freezing {
+    background: linear-gradient(to bottom, #f2f6f9, #1ba9eb);
+    color: #0965b1;
+}
