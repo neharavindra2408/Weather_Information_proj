@@ -27,7 +27,7 @@ form.addEventListener("submit", async (e) => {
 
   // Sending request to backend
   try {
-    const url = `http://localhost:3000/weather?city=${encodeURIComponent(city)}`;
+    const url = `https://weather-information-proj.onrender.com/weather?city=${encodeURIComponent(city)}`;
     console.log("Fetching:", url);
     const response = await fetch(url);
     const data = await response.json();
